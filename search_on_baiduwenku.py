@@ -2,7 +2,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import bs4
 import csv #保存为csv文件
-import re
+import re #正则表达式
 import time
 t1 = time.time()
 def get_urls(s,url = "https://wenku.baidu.com"):
